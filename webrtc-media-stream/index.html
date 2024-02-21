@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebRTC Example</title>
+  </head>
+  <body>
+    <h1>WebRTC Example</h1>
+
+    <!-- Video elements for local and remote streams -->
+    <video id="localVideo" autoplay muted playsinline width="300"></video>
+    <video id="remoteVideo" autoplay playsinline width="300"></video>
+
+    <br />
+
+    <!-- Start and Stop buttons -->
+    <div id="buttons">
+      <button id="startButton">Start</button>
+      <button id="stopButton">Stop</button>
+    </div>
+    <script type="module" src="/client.js"></script>
+  </body>
+</html>
